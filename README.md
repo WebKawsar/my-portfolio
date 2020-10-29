@@ -3,11 +3,11 @@
 ## A clean, beautiful and responsive portfolio template for Developers!
 
 
-<p align="center">
+<!-- <p align="center">
   <kbd>
 <img src="https://user-images.githubusercontent.com/49693820/81296489-999abf00-908f-11ea-9442-75e8f0ecf65d.gif"></img>
   </kbd>
-</p>
+</p> -->
 
 
 Just change `src/portfolio.js` to get your personal portfolio. Feel free to use it as-is or customize it as much as you want.
@@ -15,7 +15,7 @@ Just change `src/portfolio.js` to get your personal portfolio. Feel free to use 
 But if you want to **contribute** and make this much better for other developer have a look at [Issues](https://github.com/saadpasta/developerFolio/issues).
 
 
-If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/saadpasta/developerFolio/pulls).
+If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/webkawsar/my-portfolio/pulls).
 
 ## Table of Contents
 - [Sections](#sections)
@@ -44,7 +44,7 @@ If you created something awesome and want to contribute then feel free to open a
 ✔️ Twitter Timeline\
 ✔️ Github Profile
 
-To view a live example, **[click here](https://developerfolio.js.org/)**.
+To view a live example, **[click here](https://kawsar-ahmed.web.app/)**.
 
 
 ## Getting Started
@@ -72,7 +72,7 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+$ git clone https://github.com/webkawsar/my-portfolio.git
 
 # Go into the repository
 $ cd developerFolio
@@ -118,7 +118,7 @@ If you are seeing something as shown below, follow these [instructions](https://
 
 ![ERROR](https://i.imgur.com/Hj6mu1K.png)
 
-If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
+If the above solution still doesn't work, visit the [wiki page](https://github.com/webkawsar/my-portfolio/wiki/Github-Setup-For-Open-Source-Projects).
 
 ## Change and customize every section according to your need.
 
@@ -129,18 +129,18 @@ If the above solution still doesn't work, visit the [wiki page](https://github.c
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  title: "Hi all I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  title: "Hi all I'm Kawsar",
+  subTitle: emoji("A passionate Front-end Web Developer 🚀"),
+  resumeLink: "https://drive.google.com/file/d/176xqxutSVQAU6til2zS7mbCSOYJNcN2B/view?usp=sharing"
 };
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/webkawsar",
+  linkedin: "https://www.linkedin.com/in/web-kawsar-ahmed/",
+  gmail: "web.kawsarahmed@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/web.kawsarahmed"
 };
 
 
