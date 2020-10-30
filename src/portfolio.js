@@ -10,18 +10,19 @@ const greeting = {
   username: "Kawsar Ahmed",
   title: "Hi, I'm Kawsar",
   subTitle: emoji("A passionate Front-end Developer 🚀 having an experience of building Web applications with Reactjs / Nodejs / MomgoDB / Express / JavaScript / Material Ui / Bootstrap and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/176xqxutSVQAU6til2zS7mbCSOYJNcN2B/view?usp=sharing"
+  resumeLink: "https://drive.google.com/u/0/uc?id=176xqxutSVQAU6til2zS7mbCSOYJNcN2B&export=download"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/webkawsar",
+  facebook: "https://www.facebook.com/web.kawsarahmed",
   linkedin: "https://www.linkedin.com/in/web-kawsar-ahmed/",
   gmail: "web.kawsarahmed@gmail.com",
+  github: "https://github.com/webkawsar",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/web.kawsarahmed",
+  
   // medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/14534717/kawsar-ahmed"
   // Instagram and Twitter are also supported in the links!
@@ -68,10 +69,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
 
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    // {
+    //   skillName: "swift",
+    //   fontAwesomeClassname: "fab fa-swift"
+    // },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -80,22 +81,22 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ]
 };
 
@@ -105,26 +106,33 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "National University Bangladesh",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Bachelor's of Business Administration",
-      duration: "September 2016 - Present",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Programming Hero",
+      logo: require("./assets/images/programming.jpg"),
+      subHeader: "Web Development",
+      duration: "June 2020 - Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Basis Institute of Technology Management (BITM)",
+      logo: require("./assets/images/bitm.png"),
+      subHeader: "Certified Web Development Specialist",
+      duration: "Jan 2017 - Dec 2017",
+      desc: "",
+      descBullets: [
       ]
     },
     {
       schoolName: "National University Bangladesh",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      logo: require("./assets/images/national.png"),
+      subHeader: "Bachelor's of Business Administration (BBA)",
+      duration: "September 2016 - Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ]
-    }
+    },
+
   ]
 }
 
@@ -222,31 +230,31 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "HTML5, CSS3 & Bootstrap 4 For Web Development",
+      subtitle: "Credential earn",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://drive.google.com/file/d/1auQpPOLWXq_lpQPYI1ZoumhxoVkpcl6K/view?usp=sharing" },
+        // { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+        // { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      title: "Learn HTML for Beginners course - Udemy",
+      subtitle: "Credential earn",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      footerLink: [{ name: "Certification", url: "https://drive.google.com/file/d/14XYFwGRssc8VropBW7eFCq2E35CaYd-s/view?usp=sharing" }]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
+    // {
+    //   title: "PWA Web App Developer",
+    //   subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+    //   image: require("./assets/images/pwaLogo.webp"),
+    //   footerLink: [
+    //     { name: "Certification", url: "" },
+    //     { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+    //   ]
+    // }
   ]
 };
 

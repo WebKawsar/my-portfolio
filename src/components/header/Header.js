@@ -28,13 +28,13 @@ function Header() {
           <li>
             <a href="#skills">Skills</a>
           </li>
-          {exp === true && (
+          {/* {exp === true && (
             <li>
               <a href="#experience">Work Experiences</a>
             </li>
-          )}
+          )} */}
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#opensource">Projects</a>
           </li>
           <li>
             <a href="#achievements">Achievements</a>
@@ -42,9 +42,14 @@ function Header() {
           <li>
             <a href="#blogs">Blogs</a>
           </li>
-          <li>
+
+
+          {/* <li>
             <a href="#talks">Talks</a>
-          </li>
+          </li> */}
+
+
+
           <li>
             <a href="#contact">Contact Me</a>
           </li>
